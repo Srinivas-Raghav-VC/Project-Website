@@ -1,362 +1,59 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-    </style>
-
+    <title>Great Musicians</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <style>
       body {
-        background-color: whitesmoke;
-      }
-
-      #img {
-        float: left;
-
-        margin-right: 20px;
-
-        margin-left: 10px;
-      }
-
-      .para {
-        font-size: 25px;
-
-        font-family: "Poppins", sans-serif;
-      }
-
-      #btn,
-      #btn2,
-      #btn3,
-      #btn4,
-      #btn5 {
-        background-color: black;
-
-        border: 2px solid black;
-
-        color: whitesmoke;
-
-        padding-left: 10px;
-
-        margin-left: 90px;
-
-        font-size: 25px;
-
-        float: right;
-
-        cursor: pointer;
-
-        border-radius: 10px;
-
-        box-shadow: 0px 0px 2px black;
-
-        margin-right: 100px;
-
-        font-weight: 700;
-
-        margin-bottom: 10px;
-
-        transition: box-shadow 0.5s ease-in-out, color 0.5s;
-      }
-
-      a {
-        text-decoration: none;
-
-        color: white;
-      }
-
-      #btn:hover,
-      #btn2:hover,
-      #btn3:hover,
-      #btn4:hover,
-      #btn5:hover {
-        box-shadow: 0px 0px 4px black;
-
-        opacity: 0.7;
-
-        color: rgb(233, 228, 228);
-      }
-
-      #set,
-      #set2,
-      #set3,
-      #set4,
-      #set5 {
-        display: none;
-      }
-
-      h1#h1 {
-        text-align: center;
-
         font-family: "Gloock", sans-serif;
+        text-align: center;
+        color: white;
+        background-color: rgb(39, 31, 31);
+      }
 
-        font-size: 40px;
-
+      h1 {
+        font-family: "Gloock", sans-serif;
+        font-size: 72px;
         color: black;
       }
 
-      #box,
-      #box1,
-      #box2,
-      #box3,
-      #box4 {
-        background-color: white;
-
-        border-radius: 5px;
-
-        box-shadow: 2px 2px 5px grey;
-
-        margin: 40px;
-
-        padding: 40px;
-      }
-
-      img#img {
-        border-radius: 5px;
-
-        box-shadow: 2px 2px 5px grey;
-      }
-
-      h1,
-      #btn,
-      #btn2,
-      #btn3,
-      #btn4,
-      #btn5 {
-        font-family: "Rubik", sans-serif;
-
-        font-weight: bold;
-      }
-
-      body {
-        background-color: whitesmoke;
-      }
-
-      #img {
-        float: left;
-
-        margin-right: 20px;
-
-        margin-left: 10px;
-      }
-
-      .para {
-        font-size: 25px;
-      }
-
-      #btn,
-      #btn2,
-      #btn3,
-      #btn4,
-      #btn5 {
-        background-color: black;
-
-        border: 2px solid black;
-
-        color: whitesmoke;
-
-        font-size: 25px;
-
-        float: right;
-
-        cursor: pointer;
-
-        border-radius: 10px;
-
-        box-shadow: 0px 0px 2px black;
-
-        margin-right: 100px;
-
-        font-weight: 700;
-
-        transition: box-shawdow 0.5s ease-in-out, color 0.5s;
-      }
-
-      a {
-        text-decoration: none;
-
-        color: white;
-      }
-
-      #btn:hover,
-      #btn2:hover,
-      #btn3:hover,
-      #btn4:hover,
-      #btn5:hover {
-        box-shadow: 0px 0px 4px black;
-
-        opacity: 0.7;
-
-        color: rgb(233, 228, 228);
-      }
-
-      #set,
-      #set2,
-      #set3,
-      #set4,
-      #set5 {
-        display: none;
+      p {
+        font-size: 24px;
+        margin-top: 40px;
       }
     </style>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Greatest Musicians</title>
   </head>
-
   <body>
-    <link rel="stylesheet" href="texts.css" />
-
-    <h1 id="h1" style="text-align: center">GREATEST MUSICIANS OF ALL TIME</h1>
-
-    <div id="box">
-      <img
-        id="img"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Croce-Mozart-Detail.jpg/330px-Croce-Mozart-Detail.jpg"
-        height="300"
-        width="250"
-      />
-
-      <h1>Wolfgang Amadeus Mozart</h1>
-
-      <p class="para">
-        Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791) was a highly
-        influential and prolific composer of the Classical period. He composed
-        more than 800 works across a wide range of genres, which are considered
-        some of the most exceptional examples of symphonic, concertante,
-        chamber, operatic, and choral music. Mozart's music is renowned for its
-        melodic beauty, formal elegance, and rich harmony. Despite his short
-        life, Mozart's legacy as one of the greatest composers in the history of
-        Western music has endured.
-      </p>
-
-      <button id="btn" onclick="btn()">
-        <a target="_blank" href="one.html">Know More</a>
-      </button>
-    </div>
-
-    <div id="box1">
-      <img
-        id="img"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/330px-Beethoven.jpg"
-        height="300"
-      />
-
-      <h1>Ludwig van Beethoven</h1>
-
-      <p class="para">
-        Ludwig van Beethoven was a celebrated German composer and pianist, born
-        on December 17th, 1770 and baptized on the same day. His contributions
-        to Western music have made him one of the most highly regarded composers
-        in history, and his works remain among the most frequently performed
-        pieces in the classical music repertoire. Beethoven's music spanned the
-        transition from the Classical period to the Romantic era, and his career
-        is generally divided into three periods: early, middle, and late. The
-        early period, lasting until around 1802, was a time during which he
-        honed his craft. From 1802 to approximately 1812, his middle period saw
-        the emergence of an individual style that departed from the influence of
-        Joseph Haydn and Wolfgang Amadeus Mozart. This period is often referred
-        to as his "heroic" phase.
-      </p>
-
-      <button id="btn2" onclick="btn2()">
-        <a target="_blank" href="two.html">Know More</a>
-      </button>
-    </div>
-
-    <div id="box2">
-      <img
-        id="img"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/330px-Johann_Sebastian_Bach.jpg"
-        height="300"
-        width=""
-      />
-
-      <h1>Johann Sebastian Bach</h1>
-
-      <p class="para">
-        Johann Sebastian Bach was a celebrated German composer and musician of
-        the late Baroque period, born on March 31st, 1685 (Old Style) in
-        Germany. He is widely recognized for his extensive body of work, which
-        includes orchestral music, instrumental compositions, keyboard works,
-        organ works, and vocal music. Some of his most famous pieces include the
-        Brandenburg Concertos, Cello Suites, Goldberg Variations, The
-        Well-Tempered Clavier, Schubler Chorales, Toccata and Fugue in D minor,
-        St Matthew Passion, and Mass in B minor. Bach's legacy has only grown
-        since the 19th-century Bach revival, with many considering him to be one
-        of the greatest composers in the history of Western music.
-      </p>
-
-      <button id="btn3" onclick="btn3()">
-        <a target="_blank" href="three.html">Know More</a>
-      </button>
-    </div>
-
-    <div id="box3">
-      <img
-        id="img"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Frederic_Chopin_photo.jpeg/330px-Frederic_Chopin_photo.jpeg"
-        height="300"
-        width="250"
-      />
-
-      <h1>Frédéric Chopin</h1>
-
-      <p class="para">
-        Frédéric François Chopin, born Fryderyk Franciszek Chopin (1 March 1810
-        – 17 October 1849), was a Polish composer and pianist of the Romantic
-        period, known for his solo piano compositions. He is considered one of
-        the greatest musicians of his time, admired for his unique poetic style
-        and technical virtuosity. Chopin was born in Żelazowa Wola, part of the
-        Duchy of Warsaw, and spent most of his youth in Warsaw, which became
-        part of Congress Poland in 1815. He showed prodigious talent as a child.
-      </p>
-
-      <button id="btn4" onclick="btn4()">
-        <a target="_blank" href="four.html">Know More</a>
-      </button>
-    </div>
-
-    <div id="box4">
-      <img
-        id="img"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tchaikovsky_by_Reutlinger_%28cropped%29.jpg/330px-Tchaikovsky_by_Reutlinger_%28cropped%29.jpg"
-        height="300"
-        width=""
-      />
-
-      <h1>Pyotr Ilyich Tchaikovsky</h1>
-
-      <p class="para">
-        Pyotr Ilyich Tchaikovsky was a Russian composer of the Romantic period,
-        born on May 7th, 1840, and passing away on November 6th, 1893. He was
-        the first Russian composer to achieve international recognition and
-        wrote many pieces that are now considered staples in the classical music
-        repertoire, including the ballets Swan Lake and The Nutcracker, the 1812
-        Overture, his First Piano Concerto, Violin Concerto, the Romeo and
-        Juliet Overture-Fantasy, several symphonies, and the opera Eugene
-        Onegin.
-      </p>
-
-      <button id="btn5" onclick="btn5()">
-        <a target="_blank" href="five.html">Know More</a>
-      </button>
-    </div>
-
-    <script></script>
+    <h1>Great Musicians</h1>
+    <p>
+      Classical music is a genre of music that originated in the Western world
+      during the Baroque period and is characterized by its formal structure,
+      use of orchestral instruments, and adherence to traditional musical forms.
+      It includes the works of great composers such as Bach, Beethoven, Mozart,
+      and Tchaikovsky. Classical music is known for its complexity,
+      emotionality, and ability to evoke powerful emotions in listeners. It has
+      had a significant impact on modern music and continues to be a source of
+      inspiration for contemporary artists.
+      <br />
+      <br />
+      This Website talks about some of the Old Classics that people here often
+      but don't know much about and the Musical Genius Behind Those
+      Masterpieces.
+      <br />
+      <br />
+      Music is something that has been a part of our lives since the beginning
+      of the humanity itself the music in the nature and the souls of lives with
+      conscious mind and the music in the soul of the universe.Music is
+      something that has inspired us to do great things and has been a part of
+      our lives since the beginning of the humanity itself the music in the
+      nature and the souls of lives with conscious mind and the music in the
+      soul of the universe.&nbsp;Music is something that has inspired us to do
+      great things and has been a part of our lives since the beginning of the
+      humanity itself the music in the nature and the souls of lives with
+      conscious mind and the music in the soul of the universe.&nbsp;Music is
+      something that has inspired us to do great things and has been a part of
+      humanity's greatest Achievements.
+    </p>
+    <a href="musicans.html">Learn more about these amazing musicians</a>
   </body>
 </html>

@@ -1,0 +1,47 @@
+body {
+  font-family: "Gloock", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+h1 {
+  background-color: yellow;
+  text-align: center;
+  font-family: "Gloock", sans-serif;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: justify;
+  font-family: "Gloock", sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 25px;
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+  color: orangered;
+}
